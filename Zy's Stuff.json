@@ -1,0 +1,337 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ZysStuff",
+				"abbreviation": "ZY",
+				"full": "Zy's Stuff",
+				"url": "",
+				"authors": [
+					"Zy"
+				],
+				"convertedBy": [
+					"Zy"
+				]
+			}
+		]
+	},
+	"class": [],
+	"subclass": [],
+	"classFeature": [],
+	"subclassFeature": [],
+	"spell": [],
+	"monster": [
+		{
+			"name": "Rys'Ard",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"source": "ZysStuff",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				18,
+				{
+					"ac": 20,
+					"condition": "Super shield",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "116"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 20,
+			"wis": 16,
+			"cha": 14,
+			"passive": 18,
+			"cr": "15",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Celestial",
+				"Abyssal",
+				"Infernal",
+				"Draconic",
+				"Giant"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"CE",
+				"AB",
+				"I",
+				"DR",
+				"GI"
+			],
+			"save": {
+				"con": "+8",
+				"int": "+10",
+				"wis": "+8"
+			},
+			"skill": {
+				"arcana": "+15",
+				"history": "+15",
+				"medicine": "+8",
+				"investigation": "+15",
+				"perception": "+8",
+				"religion": "+10"
+			},
+			"conditionImmune": [],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Rys'Ard is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, +12 to hit with spell attacks). Rys'ard can cast disguise self and greater invisibility at will and has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell fire bolt}",
+								"{@spell frostbite|XGE}",
+								"{@spell guidance}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell minor illusion}",
+								"{@spell mold earth|XGE}",
+								"{@spell prestidigitation}",
+								"{@spell shape water|XGE}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell fog cloud}",
+								"{@spell grease}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell silent image}",
+								"{@spell sleep}",
+								"{@spell snare|XGE}",
+								"{@spell Tasha's hideous laughter}",
+								"{@spell thunderwave}",
+								"{@spell unseen servant}"
+							],
+							"slots": 5
+						},
+						"2": {
+							"spells": [
+								"{@spell darkness}",
+								"{@spell enlarge/reduce}",
+								"{@spell fortune's favor|EGW}",
+								"{@spell hold person}",
+								"{@spell immovable object|EGW}",
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell phantasmal force}",
+								"{@spell web}"
+							],
+							"slots": 4
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fear}",
+								"{@spell fireball}",
+								"{@spell fly}",
+								"{@spell haste}",
+								"{@spell hypnotic pattern}",
+								"{@spell major image}",
+								"{@spell sleet storm}",
+								"{@spell slow}",
+								"{@spell thunder step|XGE}",
+								"{@spell tiny servant|XGE}"
+							],
+							"slots": 4
+						},
+						"4": {
+							"spells": [
+								"{@spell arcane eye}",
+								"{@spell banishment}",
+								"{@spell dimension door}",
+								"{@spell Evard's black tentacles}",
+								"{@spell fire shield}",
+								"{@spell Otiluke's resilient sphere}",
+								"{@spell phantasmal killer}",
+								"{@spell polymorph}",
+								"{@spell stoneskin}"
+							],
+							"slots": 4
+						},
+						"5": {
+							"spells": [
+								"{@spell animate objects}",
+								"{@spell Bigby's hand}",
+								"{@spell cloudkill}",
+								"{@spell far step|XGE}",
+								"{@spell mislead}",
+								"{@spell Rary's telepathic bond}",
+								"{@spell seeming}",
+								"{@spell telekinesis}",
+								"{@spell teleportation circle}",
+								"{@spell wall of force}"
+							],
+							"slots": 4
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell disintegrate}",
+								"{@spell eyebite}",
+								"{@spell mental prison|XGE}",
+								"{@spell Otiluke's freezing sphere}",
+								"{@spell Tenser's transformation|XGE}",
+								"{@spell true seeing}"
+							],
+							"slots": 3
+						},
+						"7": {
+							"spells": [
+								"{@spell mirage arcane}",
+								"{@spell project image}",
+								"{@spell reverse gravity}",
+								"{@spell teleport}",
+								"{@spell whirlwind|XGE}"
+							],
+							"slots": 3
+						},
+						"8": {
+							"spells": [
+								"{@spell control weather}",
+								"{@spell demiplane}",
+								"{@spell feeblemind}",
+								"{@spell illusory dragon|XGE}",
+								"{@spell maze}",
+								"{@spell telepathy}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Rys'ard has advantage on saving throws against being {@condition charmed}, and magic can't put the rys'ard to sleep."
+					]
+				},
+				{
+					"name": "Illusory Self",
+					"entries": [
+						"Rys'ard can create an illusory duplicate of himself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against him, he can use his reaction to interpose the illusory duplicate between the attacker and himself. The attack automatically misses him, then the illusion dissipates. Once he uses this feature, he can't use it again until he finishes a short or long rest."
+					]
+				},
+				{
+					"name": "Trance",
+					"entries": [
+						"Trance 4 hrs. instead of sleep 8."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"Rys'ard has advantage on Constitution saving throws that he makes to maintain his concentration on a spell when he takes damage.",
+						"Rys'ard can perform the somatic components of spells even when he has weapons or a shield in one or both hands.",
+						"When a hostile creature's movement provokes an opportunity attack from Rys'ard, he can use his reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
+					]
+				},
+				{
+					"name": "Advanced Ritual Caster",
+					"entries": [
+						"Rys'Ard can cast most spells from the Wizard spell list as a ritual."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Rys'Ard has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry",
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Dagger +1",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d4 + 7}) Magical Piercing or Slashing damage."
+					]
+				},
+				{
+					"name": "Longbow +1",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}11 ({@damage 1d8 + 7}) Magical Piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"isNamedCreature": true,
+			"isNpc": true
+		}
+	],
+	"legendaryGroup": [],
+	"monsterFluff": [],
+	"background": [],
+	"feat": [],
+	"optionalfeature": [],
+	"race": [],
+	"raceFluff": [],
+	"subrace": [],
+	"deity": [],
+	"item": [],
+	"baseitem": [],
+	"variant": [],
+	"itemProperty": [],
+	"itemType": [],
+	"itemFluff": [],
+	"psionic": [],
+	"reward": [],
+	"object": [],
+	"trap": [],
+	"hazard": [],
+	"variantrule": [],
+	"condition": [],
+	"disease": [],
+	"adventure": [],
+	"adventureData": [],
+	"book": [],
+	"bookData": [],
+	"table": [],
+	"tableGroup": [],
+	"vehicle": [],
+	"action": [],
+	"cult": [],
+	"boon": [],
+	"language": [],
+	"makebrewCreatureTrait": [],
+	"status": []
+}
